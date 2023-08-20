@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(250,250,250);
+}
+
+#posts{
+    background-color: rgb(230,230,230);
+    width:75%;
+    // border:solid 1px grey;
+    margin:auto;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(50,50,50);
+    box-shadow: 0px 0px 50000px grey;
+    // margin-top:50px;
+
+}
+
+.postCard{
+    margin-top:30px;
+    margin-bottom:30px;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    border:solid 1px grey;
+    box-shadow: 1px 1px 10px;
+
+    img{
+        width:100%;
+        height:500px;
+        // border:solid 1px grey;
+    }
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-top:solid 1px grey;
+    background-color: rgb(245,245,245);
+    i{
+        font-weight: bold;
+    }
+    em{
+        color:darkblue;
+        font-weight: bold;
+    }
+    center{
+        margin-top:10px;
+        margin-bottom: 10px;
+
+        div{
+            // overflow: hidden;
+            border:solid 1px grey;
+            width:400px;
+            padding:5px 10px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            border-radius:20px;
+            justify-content: space-around;
+            box-shadow: 1px 1px 5px grey;
+            span{
+                font-size: larger;
+                font-weight: lighter;
+                cursor: pointer;
+            }
+
+            input[type="text"]{
+                border:0;
+                box-shadow: none;
+                
+            }
+
+        }
+    }
+    
+}
+.icon{
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+        font-size:larger;
+        cursor:pointer;
+}
+.oldComment{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    line-height: 25px;
+    margin-top:10px;
+    padding:5px;
+    border-top:solid 1px grey;
+    :first-child{
+        color: darkblue;
+    }
+    :last-child{
+        text-indent: 30px;
+    }
+}

@@ -1,0 +1,61 @@
+form{
+    color:rgb(80,80,80);
+    display: flex;
+    flex-direction: column;
+    border:solid 1px grey;
+    padding:20px 70px;
+    background-color: rgb(250,250,250);
+    margin-top:60px;
+    box-shadow:5px 5px 35px rgb(30,30,30) , 0px 0px 5px rgb(30,30,30) inset;
+
+}
+
+input[type="text"] ,input[type="email"] ,input[type="password"],input[type="date"]{
+    color:rgb(80,80,80);
+    width:260px;
+    padding:7px 25px;
+    padding-left:20px;
+    outline: none;
+    // font-size:large; 
+    border:solid 1px grey;
+    box-shadow: 1px 1px 10px grey;
+}
+
+input[type="submit"] ,input[type="reset"]{
+    color:white;
+    padding:10px 20px;
+    border:0;
+    border-radius:10px; 
+    transition:all 0.4s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-3px);
+    }
+}
+input[type="submit"]{
+    background-color:rgb(38, 153, 38);
+    border:0;
+    border-radius:10px; 
+    float:right;
+}
+input[type="reset"]{
+    background-color:rgb(206, 37, 70);
+    float:left;
+}
+
+.form{
+    width:100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+
+hr{
+    margin-left:-15%;
+    background-color: grey;
+    width:130%;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}

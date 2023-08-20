@@ -1,0 +1,140 @@
+body {
+  background-color: #fafafa;
+}
+
+#posts {
+  background-color: #e6e6e6;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #323232;
+  -webkit-box-shadow: 0px 0px 50000px grey;
+          box-shadow: 0px 0px 50000px grey;
+}
+
+.postCard {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px grey;
+  -webkit-box-shadow: 1px 1px 10px;
+          box-shadow: 1px 1px 10px;
+}
+
+.postCard img {
+  width: 100%;
+  height: 500px;
+}
+
+.postInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-top: solid 1px grey;
+  background-color: whitesmoke;
+}
+
+.postInfo i {
+  font-weight: bold;
+}
+
+.postInfo em {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.postInfo center {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.postInfo center div {
+  border: solid 1px grey;
+  width: 400px;
+  padding: 5px 10px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+}
+
+.postInfo center div span {
+  font-size: larger;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.postInfo center div input[type="text"] {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.oldComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  line-height: 25px;
+  margin-top: 10px;
+  padding: 5px;
+  border-top: solid 1px grey;
+}
+
+.oldComment :first-child {
+  color: darkblue;
+}
+
+.oldComment :last-child {
+  text-indent: 30px;
+}
+/*# sourceMappingURL=homeStyle.css.map */
